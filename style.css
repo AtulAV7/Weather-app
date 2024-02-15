@@ -72,23 +72,29 @@ body{
 }
 .details{
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
+   
 }
 .col{
-    display: flex;
-    align-items: center;
-    text-align:right;
+    width: 500px;
+    margin-top: 50px;
+    margin-left:100px ;
+}
+.cool
+{
+    width:100px;
+    margin-top: 1px;
+}
+.humidity {
+    width: 400px;
+    margin-left: 120px;
+}
 
-}
-.col img{
-    width: 40px;
-    margin-right: 10px;
-    
-}
-.humidity , .wind{
-     font-size: 28px;
-     margin-top: -10px;
+.wind {
+    width: 100px;
+    margin-right: 100px;
 }
